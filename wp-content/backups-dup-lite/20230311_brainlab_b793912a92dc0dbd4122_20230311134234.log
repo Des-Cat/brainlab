@@ -1,0 +1,72 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: March 11, 2023 1:42 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.2.1
+WORDPRESS:	6.1.1
+PHP INFO:	7.4.30 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 10MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20230311_brainlab_b793912a92dc0dbd4122_20230311134234_database.sql
+SQL FILE SIZE: 1.26MB (1319358)
+SQL FILE TIME: 2023-03-11 13:42:43
+SQL RUNTIME: 4.31 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  A:/soft/OSPanel/domains/brainlab
+ARCHIVE FILE: 20230311_brainlab_b793912a92dc0dbd4122_20230311134234_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	66.49MB
+STATS:	Dirs 502 | Files 3,664
+SQL ADDED: 20230311_brainlab_b793912a92dc0dbd4122_20230311134234_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4166
+    [filename] => A:\soft\OSPanel\domains\brainlab\wp-content\backups-dup-lite\tmp\20230311_brainlab_b793912a92dc0dbd4122_20230311134234_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 4165
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 19.96MB
+ARCHIVE RUNTIME: 32.46 sec.
+MEMORY STACK: 10MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.26MB
+INSTALLER FILE: 73.35KB
+ARCHIVE FILE: 21.77MB 
+EXPECTED FILE/DIRECTORY COUNT: 4,166
+ACTUAL FILE/DIRECTORY COUNT: 4,165
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 38.09 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => 20230311_brainlab March 11, 2023 1:43 pm
+
