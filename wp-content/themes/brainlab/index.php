@@ -20,9 +20,15 @@
                     <ul class="tour-dates-list">
 						<?php
 						$tour_dates = get_field('tour_date_repeater');
-						foreach ($tour_dates as $date) {
-							echo '<li>' . $date['tour_date'] . '</li>';
+						if ($tour_dates) {
+                            foreach ($tour_dates as $date) {
+                                echo '<li>' . $date['tour_date'] . '</li>';
+                            }
 						}
+						else {
+						    echo 'Даты тура не определены.';
+                        }
+
 						?>
                     </ul>
                 </div>
